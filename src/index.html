@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>Ping Pong</title>
+    <!-- Required meta tags for bootstrap 4 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <title>Web Template</title>
   </head>
+  
   <body>
     <div class="container">
-      <form id="ping-pong-form">
-        <label for="goal">Enter a number!!!</label>
-        <input id="goal" type="number">
-        <button type="submit" class="btn btn-danger">Submit</button>
-      </form>
-      <ul id="solution"></ul>
+      <!-- input form  -->
+      <div class="row">
+        <div class="col-md-6 offset-md-3 box-decore">
+          <h1 class="text-center">Even Fibonacci Numbers</h1>
+          <form>
+            <div class="form-group">
+              <label for="input-1">Enter Fib Number</label>
+              <input type="text" class="form-control" id="input-1" aria-describedby="input">
+              <small id="input1-Help" class="form-text text-muted">You can put your thoughts here.</small>
+            </div>
+           
+            <button id="submitBtn" type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+  
+      <!-- output box  -->
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="output">Output here</div>
+        </div>
+      </div>
     </div>
   </body>
-</html>

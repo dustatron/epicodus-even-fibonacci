@@ -1,8 +1,8 @@
-# _Boilerplate Website_
+# _Even Fibonacci_
 
 #### _This site comes with the all basic parts to get you started making a single page website fast. | Jan 24. 2020_
 
-#### By _**Dusty McCord**_
+#### By _**Dusty McCord and Ben Thom**_
 [link to demo site coming](#)
 
 ## Description
@@ -51,8 +51,9 @@ git clone Link-Here
 
 Behavoir | Input | Output
 :---------:|:------:|:------:
-The program takes in input and console.log a 'click' | 'any word' | 'click'
-The program takes in any words and console logs the output | 'learning to code' | 'learning to code'
+Program will take in a ending value and return Fibonacci values | 10  | 1, 2, 3, 5, 8
+Program will take in a ending number and return even Fibonacci values | 10  | 2, 8
+
 
 ## Support 
 
